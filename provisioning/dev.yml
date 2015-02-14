@@ -1,0 +1,8 @@
+- hosts: all
+  vars: 
+    - docroot: "/home/ubuntu/www/"
+  sudo: yes
+  roles:
+    - base
+    - nginx
+    - nodejs
